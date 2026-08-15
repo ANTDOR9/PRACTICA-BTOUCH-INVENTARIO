@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRIGHTER-PAD</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #0A0A0A;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Inter', sans-serif;
+        }
+        .splash {
+            text-align: center;
+            animation: fadeIn 1s ease;
+        }
+        .splash svg {
+            width: 120px;
+            height: 120px;
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+        .splash h1 {
+            color: #FFFFFF;
+            font-size: 3rem;
+            margin-top: 20px;
+            background: linear-gradient(135deg, #2BBC91, #FF5440);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="splash">
+        <!-- Logo SVG de Brighter -->
+        <svg width="120" height="120" viewBox="0 0 100 100">
+            <circle cx="50" cy="45" r="30" fill="#FF5440"/>
+            <path d="M50 20 Q70 10 80 30 Q70 35 50 35 Z" fill="#2BBC91"/>
+            <circle cx="30" cy="30" r="15" fill="#EC232A"/>
+            <polygon points="20,25 10,20 20,35" fill="#FF6E2B"/>
+            <circle cx="25" cy="28" r="4" fill="white"/>
+            <circle cx="24" cy="27" r="2" fill="black"/>
+        </svg>
+        <h1>BRIGHTER-PAD</h1>
+        <p style="color: rgba(255,255,255,0.5); margin-top: 10px;">Pantallas Interactivas</p>
+    </div>
+    <script>
+        // Redirigir a la app después de 2 segundos
+        setTimeout(() => {
+            window.location.href = 'index.html';
+        }, 2000);
+    </script>
+</body>
+</html>

@@ -1,5 +1,9 @@
 {
   "appId": "com.brighter.pad",
   "appName": "BRIGHTER-PAD",
-  "webDir": "www"
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https",
+    "launchShowDuration": 0
+  }
 }
