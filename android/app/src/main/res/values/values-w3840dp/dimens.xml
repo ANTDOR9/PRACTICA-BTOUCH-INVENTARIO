@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dimensiones para pantallas 4K -->
+    <dimen name="webview_min_height">2160dp</dimen>
+    <dimen name="webview_min_width">3840dp</dimen>
+    
+    <!-- Ajustes de UI para 4K -->
+    <dimen name="activity_horizontal_margin">48dp</dimen>
+    <dimen name="activity_vertical_margin">48dp</dimen>
+    
+    <!-- Tamaños de texto escalados -->
+    <dimen name="text_size_large">32sp</dimen>
+    <dimen name="text_size_medium">24sp</dimen>
+    <dimen name="text_size_small">18sp</dimen>
+</resources>

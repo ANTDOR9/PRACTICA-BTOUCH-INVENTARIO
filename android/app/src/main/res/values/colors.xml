@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores corporativos BRIGHTER-PAD -->
+    <color name="colorPrimary">#2BBC91</color>
+    <color name="colorPrimaryDark">#1A8A6A</color>
+    <color name="colorAccent">#FF5440</color>
+    
+    <!-- Colores de la marca -->
+    <color name="coral">#FF5440</color>
+    <color name="turquoise">#2BBC91</color>
+    <color name="orange">#FF6E2B</color>
+    <color name="red_dark">#CD1D2D</color>
+    <color name="red_intense">#EC232A</color>
+    
+    <!-- Fondos -->
+    <color name="background">#0A0A0A</color>
+    <color name="background_light">#1A1A1A</color>
+    
+    <!-- Splash / Launch -->
+    <color name="launch_background">#0A0A0A</color>
+</resources>
